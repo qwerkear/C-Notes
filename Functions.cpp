@@ -8,10 +8,11 @@ int add(int, int);
 
 //The same applies to overloads; we have to declare them before we can overload them.
 int add(int, int, int);
+string add(string, string);
+
 //If you want a default value, you have to start right to left.
 //Meaning the second parameter cannot be defaulted if the third is not
 int subtract(int, int = 1, int = 3);
-string add(string, string);
 
 //Here is a small example for the use case of a static variable:
 void staticTestFunction() {
