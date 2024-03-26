@@ -55,6 +55,18 @@ int main(){
     //Boolean
     std::cout << "Size of boolean (bool): " << sizeof(bool) << std::endl;
 
+
+    std::cout << "TYPECASTING" << std::endl;
+    //Typecasting
+
+    float f = 17.38;
+    std::cout << "typecasting 17.38 float with int and adding 100: " << (int) f + 100 << std::endl;
+    int a  = 7;
+    int b = 3;
+    std::cout << "typecasting two ints to floats to get a float result " << (float) a / (float) b << std::endl;
+    std::cout << "float (f) not typecasted: " << f << std::endl;
+    std::cout << "typecasting a float (f) to a string: " << std::to_string(f) << std::endl;
+
     return 0;
 }
 
